@@ -1,0 +1,131 @@
+body{
+    background-size: cover;
+    background-image: url(../Images/327135.webp);
+    background-repeat: none;    
+    box-sizing: border-box;
+       
+    }    
+.ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    } 
+.p{
+    display: block;
+    float: center;
+}
+.heading{
+    border: 40x solid black;
+    border-radius: 40px;
+    text-align: center;    
+    color: white;
+    background-color: black;
+    margin-left: 25%;
+    margin-right: 25%;        
+}    
+.choose{
+    color: white;
+    background-color: black;
+}
+.p {
+    color: black;
+    font-size: large;
+    font-weight: 500;
+}
+.btn:active{
+    color: white;
+    background-color: black;
+}
+.btn{
+    border-color: yellow;
+}
+
+.thank{
+    background-color: black;
+}
+.f1{
+    text-align: center;
+    font-weight: 500;
+}
+.note{
+    color:yellowgreen; 
+}
+.ul1 {
+    color: white;
+}
+.mail{
+    text-align: center;
+    margin: 50px;   
+    color: white;
+}
+ .nav li{
+     color: white;
+     text-decoration: none;
+     list-style-type: none;
+     display: inline-block;
+     margin: 5px;
+     padding: 5px;
+     box-shadow: 0px 8px 16px 0px rgba(1, 10, 1, 14);   
+ }
+.white{
+    color: white;
+    text-decoration: none;
+}
+.white:hover{
+    color: yellow;
+}
+
+    /* .dropbtn {
+      background-size: 100%;
+      background-color: rgb(71, 116, 71);
+      color: white;
+      padding: 10px;
+      font-size: 8px;
+      border: none;
+      box-shadow: 0px 8px 14px 2px rgba(1, 10, 1, 10);
+      align-items: right;
+
+    }
+    
+
+    
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color:black;
+      min-width: 8px;
+      box-shadow: 0px 4px 6px 2px;
+    }
+    
+    .dropdown-content a {
+      color: white;
+      padding: 2px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    .dropdown-content a:hover {background-color:burlywood;}
+    
+    .dropdown:hover .dropdown-content {display: block;}
+    
+    .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+  */
+
+ @media (min-width: 481px) and (max-width: 768px){
+    .media{
+        width: 100%;
+    }
+ }
+
+ @media (max-width: 600px){
+     body{
+         font-size: small;
+     }
+     
+ }
