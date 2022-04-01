@@ -8,6 +8,9 @@
 </head>
 <body>
 
+<a href="test_get.php?subject=PHP&web=W3schools.com">Test $ GET</a>
+
+
 <?php
 
 // #While loop examples
@@ -41,24 +44,66 @@
 
 #printed a odd number from 0 to 100
 
-// for ($i=1; $i < 100; $i=$i+2) { 
-    // echo "odd numbers $i <br>" ;
-// }
+// for ($i=0; $i < 100; $i=$i+2) { 
+//     echo "odd numbers $i <br>" ;
+
 
 // }
 
 #Printed a even numbers.
 
-for ($i=2; $i < 100; $i=$i+2) { 
-    echo "printing even numbers $i <br>";}
+// for ($i=1; $i < 100; $i++) { 
+    // echo "printing even numbers $i <br>";}
     
+
 // }
 
-// $x=40;
-// $x % = 3;
-// echo $x;
+// $GLOBALS = This is a super global variable and this is storing a variables in array index without changing any names.
+// This variable can take values from anywhere in the program.
+
+// $_SERVER = This variable holds a information about header, path and script locations.
+// 
+
+
+// echo $_SERVER['PHP_SELF'];
+// echo "<br>";
+// echo $_SERVER['SERVER_NAME'];
+// echo "<br>";
+// echo $_SERVER['HTTP_HOST'];
+// echo "<br>";
+// echo $_SERVER['HTTP_REFERER'];
+// echo "<br>";
+// echo $_SERVER['HTTP_USER_AGENT'];
+// echo "<br>";
+// echo $_SERVER['SCRIPT_NAME'];
+// echo "<br>";
+// echo $_SERVER['SERVER_ADDR'];
+// echo "<br>";
+// echo $_SERVER['SERVER_ADMIN'];
+// echo "<br>";
+// echo $_SERVER['SCRIPT_URI'];
+// echo "<br>";
+// echo $_SERVER['REQUEST_TIME'];
+// echo $_SERVER['QUERY_STRING'];
+// echo "<br>";
+
+// $_REQUEST - this super variable taking the information of submitting the filled form.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ?>
     
 </body>
+
 </html>
