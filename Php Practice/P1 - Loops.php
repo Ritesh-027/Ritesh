@@ -52,8 +52,8 @@
 
 #Printed a even numbers.
 
-// for ($i=1; $i < 100; $i++) { 
-    // echo "printing even numbers $i <br>";}
+for ($i=1; $i < 100; $i++) { 
+    echo "printing even numbers $i <br>";}
     
 
 // }
