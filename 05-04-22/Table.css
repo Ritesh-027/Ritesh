@@ -1,0 +1,20 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
+}
+
+.tab{
+
+border: 1px solid black;
+width: 80%;
+margin-left: 5px;
+margin-top: 10px;
+}
+
+.row{
+border-right: 1px solid black;
+text-align: center;
+
+}

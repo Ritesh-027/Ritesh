@@ -64,14 +64,6 @@ $odd = "<br/> Odd Numbers are : ";
 // }
 
 
-$a = 5;
-
-for ($i=0; $i <=$a ; $i++) { 
-    echo "*";
-}
-
-?>
-
 
 </body>
 </html>
