@@ -10,7 +10,7 @@
 
 <?php
 
-#Remove  the duplicat evalue from the array;
+#Remove  the duplicate evalue from the array;
 
 // $ary = array("1","2","1","1","1","6","6","6");
 
@@ -34,6 +34,12 @@
 // array_diff - This function is use to see a different a between 2 arrays or more.
 
 // array_diff_assoc - This function is use to check a difference between associative arrays only.
+
+$a = array("A1","A2","A3","A4","A5","A6");
+
+// print_r(array_chunk($a,4));
+
+
 
 
 

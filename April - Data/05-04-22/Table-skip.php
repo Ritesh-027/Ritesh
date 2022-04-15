@@ -1,3 +1,8 @@
+<?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,19 +18,22 @@
 <?php
 
 $num = 10;
-    
-for ($i=1; $i <= 10; $i++) { 
-         
-    echo "<tr class = ro>";
+// $i = 1;
 
-    if ($i==8) {
-        continue;   
-    }
+for ($j=1; $j <= 10; $j++) { 
+         
+    echo "<tr class = ro>"; 
         
-    for ($j=1; $j<=$num; $j++) { 
+    for ($i=1; $i<=10; $i++) { 
+
+        if ($j === 8) {
+            continue;
+        }
+
         $table = $i * $j;
-        echo "<td class=row> $j * $i = $table </td>";
-           
+
+        echo "<td class=row> $i * $j = $table </td>";        
+                               
     }
 
     echo "</tr>";

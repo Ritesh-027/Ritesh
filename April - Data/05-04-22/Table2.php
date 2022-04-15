@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -27,9 +27,7 @@ for ($i=1; $i <= 10; $i++) {
         
     for ($j=1; $j<=$num; $j++) { 
         $table = $i * $j;
-        echo "<td class=row> $j * $i = $table </td>";
-
-           
+        echo "<td class=row> $j * $i = $table </td>";          
     }
 
     echo "</tr>";
@@ -43,4 +41,4 @@ for ($i=1; $i <= 10; $i++) {
 
 </table>
 </body>
-</html>
+</html> -->
